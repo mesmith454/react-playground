@@ -1,5 +1,9 @@
 import './App.css';
+
 import Clock from './components/Clock';
+import Form from './components/form/Form';
+import Toggle from './components/buttons/Toggle';
+import LoggingButton from './components/buttons/LoggingButton';
 
 function App() {
   const element = <h1> Sup Fjuckers </h1>
@@ -21,7 +25,9 @@ function App() {
         </div>
 
         <div id="body">
-           
+           <Form />
+           <Toggle />
+           <LoggingButton />
         </div>
 
       </div>
