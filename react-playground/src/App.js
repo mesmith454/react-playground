@@ -39,11 +39,7 @@ function App() {
           <div id="greeting">
             <LoginControl />
           </div>
-           
-          <div id="mail"> 
-            
-          </div>
-
+          
         </div>
 
       </div>
