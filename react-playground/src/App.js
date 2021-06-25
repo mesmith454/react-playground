@@ -4,9 +4,13 @@ import Clock from './components/Clock';
 import Form from './components/form/Form';
 import Toggle from './components/buttons/Toggle';
 import LoggingButton from './components/buttons/LoggingButton';
+import LoginControl from './components/greet_or_log/login_control/LoginControl';
+
+
 
 function App() {
   const element = <h1> Sup Fjuckers </h1>
+
  
   return (
     <div>
@@ -25,9 +29,21 @@ function App() {
         </div>
 
         <div id="body">
-           <Form />
+
+          <div id="buttons">
+            <Form />
            <Toggle />
            <LoggingButton />
+          </div>
+
+          <div id="greeting">
+            <LoginControl />
+          </div>
+           
+          <div id="mail"> 
+            
+          </div>
+
         </div>
 
       </div>
