@@ -5,6 +5,9 @@ import NumberList from "../list/NumberList";
 import Blog from "../blog/Blog"
 import NameForm from "../form/NameForm";
 import ListForm from "../form/ListForm";
+import Reservation from "../form/Reservation";
+import Calculator from "../tempcalc/Calculator";
+import WelcomeDialog from "../WelcomeDialog";
 
 const UserGreeting = () => {
     const messages = ['forget u kno who', 'and get u no poo', `the constipation sensation that's sweeping the nation`]
@@ -24,11 +27,14 @@ const UserGreeting = () => {
             </div>
 
             <div id="userBody"> 
+                <WelcomeDialog />
                 <Page />
                 <NumberList numbers={numbers}/>
                 <Blog posts={posts}/>
                 <NameForm />
                 <ListForm />
+                <Reservation />
+                <Calculator />
             </div>
         </div>
     )
